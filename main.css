@@ -10,7 +10,6 @@ body {
 h1 { color:white;
     background-color: blue;
     font-family:Ariel, Helvetica, sans-serif;
-
 }
 
 h1 { font-size: 20px
@@ -19,3 +18,23 @@ h1 { font-size: 20px
 p { font-size: 20px
 }
 
+li:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+nav {
+    background-color: yellow;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+nav > ul > li {
+    position: relative;
+    width: 100%;
+}
