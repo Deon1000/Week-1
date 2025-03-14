@@ -4,8 +4,9 @@ body {
     grid-template-rows: auto;
     grid-template-areas:
     "header nav nav"
-    "main main main"
-    "footer footer footer";
+    "nav main aside"
+    "footer footer footer"
+    ;
 }
 h1 { color:white;
     background-color: blue;
