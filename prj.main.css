@@ -26,40 +26,44 @@ footer {
     color: white;
     grid-area: footer;
 }
+
 footer:target {
     background-color: yellow;
 }
+
 main {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    }
-    div img {
+}
+
+div img {
     width: 100%;
-    }
-    main div {
+}
+
+main div {
     border: 1px solid black;
     padding: 2em;
-    }
+}
 
-    body {
-        display: grid;
-        grid-template-columns: 1fr 4fr 1fr;
-        grid-template-rows: auto;
-        grid-template-areas:
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
         "header header header"
         "nav nav nav"
         "main main aside"
         "footer footer footer";
-    }
+}
 
-    main {
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-    }
-    nav ul {
-        display: flex;
-        justify-content: space-around;
-        list-style: none;
-        text-align: center;
-    }
-    
+main {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+}
