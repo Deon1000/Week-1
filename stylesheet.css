@@ -6,7 +6,7 @@
 }
 
 nav {
-    background-color: yellow;
+    background-color: rgb(33, 31, 31);
     grid-area: nav;
 }
 
@@ -82,4 +82,8 @@ p, a, h1, h2 {
 
 body {
     background-color: rgb(57, 57, 57);
+}
+
+h1 {
+    font-size: 50px
 }
