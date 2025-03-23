@@ -11,7 +11,7 @@ nav {
 }
 
 main {
-    background-color: darkblue;
+    background-color: rgb(57, 57, 58);
     color: white;
     grid-area: main;
 }
@@ -22,7 +22,7 @@ aside {
 }
 
 footer {
-    background-color: darkgreen;
+    background-color: rgb(37, 9, 37);
     color: white;
     grid-area: footer;
 }
